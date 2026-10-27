@@ -1,0 +1,33 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Python deps
+        run: pip install -r backend/requirements.txt
+      - name: Generated TypeScript rules are in sync with Python
+        run: |
+          python backend/scripts/codegen.py
+          git diff --exit-code frontend/src/rules.generated.ts shared/parity_cases.json
+      - name: Python tests (engine, API, codegen)
+        run: cd backend && pytest -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: TypeScript strict build + parity tests
+        run: |
+          cd frontend
+          npm install --no-audit --no-fund
+          npm run build
+          npm test
