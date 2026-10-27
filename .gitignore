@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node / TypeScript
+node_modules/
+frontend/.test-build/
+frontend/dist/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# NOTE: frontend/public/js/ is committed on purpose so GitHub Pages can serve
+# the compiled TypeScript without a build step. Rebuild with: cd frontend && npm run build

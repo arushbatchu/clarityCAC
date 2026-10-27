@@ -1,0 +1,2447 @@
+[
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 1,
+   "onset": "sudden",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 10,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 2,
+   "onset": "sudden",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 8,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 3,
+   "onset": "sudden",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 12,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 4,
+   "onset": "sudden",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 14,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 5,
+   "onset": "sudden",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 16,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "chest",
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "chest pressure",
+    "sweating",
+    "shortness of breath"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 13,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 1,
+   "onset": "sudden",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly, which should be checked within a few hours.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly, which should be checked within a few hours.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 2,
+   "onset": "sudden",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 3,
+   "onset": "sudden",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 4,
+   "onset": "sudden",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 5,
+   "onset": "sudden",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "breathing",
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "short of breath",
+    "tight chest"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported shortness of breath that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Shortness of breath"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 1,
+   "onset": "sudden",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 2,
+   "onset": "sudden",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 8,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 8,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 3,
+   "onset": "sudden",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 4,
+   "onset": "sudden",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 5,
+   "onset": "sudden",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 13,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "headache",
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "worst headache",
+    "nausea",
+    "light sensitivity"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 13,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported severe symptoms and nausea or vomiting that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "High severity language",
+    "Sudden onset",
+    "Nausea / vomiting",
+    "Headache"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 1,
+   "onset": "sudden",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 2,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury that started suddenly, which should be checked within a few hours.",
+   "detected": [
+    "Sudden onset",
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": -1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which is worth keeping an eye on.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 2,
+   "onset": "sudden",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury that started suddenly, which should be checked within a few hours.",
+   "detected": [
+    "Sudden onset",
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": 0,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which is worth keeping an eye on.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 3,
+   "onset": "sudden",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 4,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury that started suddenly, which should be checked within a few hours.",
+   "detected": [
+    "Sudden onset",
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": 1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which is worth keeping an eye on.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 4,
+   "onset": "sudden",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which should be checked within a few hours.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 5,
+   "onset": "sudden",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 8,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "injury",
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which should be checked within a few hours.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 1,
+   "onset": "sudden",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 8,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever, which should be checked within a few hours.",
+   "detected": [
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 2,
+   "onset": "sudden",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 3,
+   "onset": "sudden",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 10,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 4,
+   "onset": "sudden",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 12,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 5,
+   "onset": "sudden",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 14,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "fever_child",
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "tired",
+    "not eating"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Very high fever",
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 1,
+   "onset": "sudden",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes that started suddenly, which should be checked within a few hours.",
+   "detected": [
+    "Sudden onset",
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 2,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes, which should be checked within a few hours.",
+   "detected": [
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 2,
+   "onset": "sudden",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes, which should be checked within a few hours.",
+   "detected": [
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 3,
+   "onset": "sudden",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 4,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes, which should be checked within a few hours.",
+   "detected": [
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 4,
+   "onset": "sudden",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 5,
+   "onset": "sudden",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes that started suddenly. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Sudden onset",
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": "vague",
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy",
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 8,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Dizziness / vision change",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": -1,
+   "escalated": true,
+   "escalationRule": "R2",
+   "explanation": "You rated how you feel as barely there, 1 out of 5, which should be checked within a few hours. Not enough detail to rule anything out, so we defaulted to moderate to be safe.",
+   "detected": []
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 1,
+   "escalated": true,
+   "escalationRule": "R2",
+   "explanation": "You rated how you feel as noticeable, 3 out of 5, which should be checked within a few hours. Not enough detail to rule anything out, so we defaulted to moderate to be safe.",
+   "detected": []
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You rated how you feel as overwhelming, 5 out of 5, which should be checked within a few hours.",
+   "detected": []
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": 1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes, which is worth keeping an eye on.",
+   "detected": [
+    "Dizziness / vision change"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes, which should be checked within a few hours.",
+   "detected": [
+    "Dizziness / vision change"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "dizzy"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported dizziness or vision changes. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Dizziness / vision change"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "nausea",
+    "tired"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": 0,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported nausea or vomiting, which is worth keeping an eye on.",
+   "detected": [
+    "Nausea / vomiting"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "nausea",
+    "tired"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 2,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported nausea or vomiting, which should be checked within a few hours.",
+   "detected": [
+    "Nausea / vomiting"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "nausea",
+    "tired"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported nausea or vomiting. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Nausea / vomiting"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "face drooping"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported signs of a stroke. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Stroke indicators (FAST)"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "face drooping"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported signs of a stroke. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Stroke indicators (FAST)"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "face drooping"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 11,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported signs of a stroke. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Stroke indicators (FAST)"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "severe bleeding"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 7,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported bleeding that won't stop. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Uncontrolled bleeding",
+    "High severity language"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "severe bleeding"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported bleeding that won't stop. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Uncontrolled bleeding",
+    "High severity language"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "severe bleeding"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 13,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported bleeding that won't stop. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Uncontrolled bleeding",
+    "High severity language"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": -3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "Nothing specific stood out.",
+   "detected": [
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "low",
+   "score": -1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "Nothing specific stood out.",
+   "detected": [
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "mild bleeding",
+    "bruising"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You rated how you feel as overwhelming, 5 out of 5, which should be checked within a few hours.",
+   "detected": [
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "chills"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever, which should be checked within a few hours.",
+   "detected": [
+    "Very high fever",
+    "Fever present"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "chills"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 5,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever, which should be checked within a few hours.",
+   "detected": [
+    "Very high fever",
+    "Fever present"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "high fever",
+    "chills"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a very high fever. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Very high fever",
+    "Fever present"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 1,
+   "onset": "gradual",
+   "symptoms": [
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 0,
+   "escalated": true,
+   "escalationRule": "R1",
+   "explanation": "You rated how you feel as barely there, 1 out of 5, which should be checked within a few hours. Unclear wording with nothing reassuring, so we moved it up to moderate to be safe.",
+   "detected": [
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 3,
+   "onset": "gradual",
+   "symptoms": [
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 2,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You rated how you feel as noticeable, 3 out of 5, which should be checked within a few hours.",
+   "detected": [
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 5,
+   "onset": "gradual",
+   "symptoms": [
+    "heart feels weird"
+   ],
+   "freeText": null
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You rated how you feel as overwhelming, 5 out of 5. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "not sure, something feels weird"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 1,
+   "escalated": true,
+   "escalationRule": "R1",
+   "explanation": "You rated how you feel as mild, 2 out of 5, which should be checked within a few hours. Unclear wording with nothing reassuring, so we moved it up to moderate to be safe.",
+   "detected": [
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "not sure, something feels weird"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 4,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You rated how you feel as strong, 4 out of 5, which should be checked within a few hours.",
+   "detected": [
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "my chest pressure is mild and improving"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Mild descriptors",
+    "Improving"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "my chest pressure is mild and improving"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 4,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Mild descriptors",
+    "Improving"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "no chest pain"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Pain reported"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "no chest pain"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported chest pain or pressure. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Chest pain / pressure",
+    "Pain reported"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "the pain is not going away"
+  },
+  "expected": {
+   "tier": "low",
+   "score": 1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported pain, which is worth keeping an eye on.",
+   "detected": [
+    "Pain reported"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "the pain is not going away"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 4,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported pain, which should be checked within a few hours.",
+   "detected": [
+    "Pain reported"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "acute cut on my finger, minor"
+  },
+  "expected": {
+   "tier": "low",
+   "score": 0,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which is worth keeping an eye on.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "acute cut on my finger, minor"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported an injury, which should be checked within a few hours.",
+   "detected": [
+    "Injury",
+    "Mild descriptors"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "my 2-year-old has a fever and is a little fussy"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a fever, which should be checked within a few hours.",
+   "detected": [
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "my 2-year-old has a fever and is a little fussy"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a fever. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Fever present",
+    "Infant / very young child"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "grandmother fell and seems confused"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported confusion and an injury. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Confusion",
+    "Injury",
+    "Elderly person"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "grandmother fell and seems confused"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported confusion and an injury. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Confusion",
+    "Injury",
+    "Elderly person"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "I'm pregnant and have a bad headache"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a headache, which should be checked within a few hours.",
+   "detected": [
+    "Headache",
+    "Pregnancy context"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "I'm pregnant and have a bad headache"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a headache. Together, that's serious enough for emergency care.",
+   "detected": [
+    "Headache",
+    "Pregnancy context"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "mild rash, getting better"
+  },
+  "expected": {
+   "tier": "low",
+   "score": -2,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a rash or swelling, which is worth keeping an eye on.",
+   "detected": [
+    "Skin / swelling reaction",
+    "Mild descriptors",
+    "Improving"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "mild rash, getting better"
+  },
+  "expected": {
+   "tier": "low",
+   "score": 1,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported a rash or swelling, which is worth keeping an eye on.",
+   "detected": [
+    "Skin / swelling reaction",
+    "Mild descriptors",
+    "Improving"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "throat closing after eating peanuts"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported throat, tongue, or face swelling. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Airway / anaphylaxis"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "throat closing after eating peanuts"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported throat, tongue, or face swelling. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Airway / anaphylaxis"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "I want to die"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 6,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported thoughts of ending your life. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Safety crisis"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "I want to die"
+  },
+  "expected": {
+   "tier": "high",
+   "score": 9,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You reported thoughts of ending your life. That's a warning sign, and warning signs always mean emergency care.",
+   "detected": [
+    "Safety crisis"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 2,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "feels odd but it passed quickly"
+  },
+  "expected": {
+   "tier": "low",
+   "score": 0,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "Nothing specific stood out.",
+   "detected": [
+    "Brief duration",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ },
+ {
+  "input": {
+   "scenarioId": null,
+   "severity": 4,
+   "onset": "gradual",
+   "symptoms": [],
+   "freeText": "feels odd but it passed quickly"
+  },
+  "expected": {
+   "tier": "moderate",
+   "score": 3,
+   "escalated": false,
+   "escalationRule": null,
+   "explanation": "You rated how you feel as strong, 4 out of 5, which should be checked within a few hours.",
+   "detected": [
+    "Brief duration",
+    "Ambiguous / uncertain phrasing"
+   ]
+  }
+ }
+]
