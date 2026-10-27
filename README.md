@@ -4,7 +4,7 @@
 
 Congressional App Challenge 2026 · Washington's 1st District
 
-**Live app:** https://arushbatchu.github.io/clarity/ (works on any phone, installs to the home screen, works offline)
+**Live app:** (https://arushbatchu.github.io/clarityCAC/) (works on any phone, installs to the home screen, works offline)
 
 ---
 
